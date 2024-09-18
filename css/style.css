@@ -3,8 +3,22 @@ body {
   background-color: #FEF7ED;
 }
 
-.nav-bar {
+.nav-bar,
+.nav-animals.active,
+.content-animals {
   background: #FEF7ED;
+}
+
+.nav-animals.active {
+  color: #f86b58;
+  border: 2px solid #f86b58;
+  border-bottom: #FEF7ED;
+  border-radius: 10px;
+}
+
+.content-animals {
+  border: 2px solid #f86b58;
+  border-radius: 10px;
 }
 
 .content-font {
